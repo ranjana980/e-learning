@@ -1,7 +1,10 @@
 .App {
   text-align: center;
+  overflow: hidden;
 }
-
+.body{
+  overflow: hidden;
+}
 .App-logo {
   height: 40vmin;
   pointer-events: none;
@@ -90,60 +93,97 @@
   right: 53px;
   top: 27px;
 }
-.btn-div{
+
+.btn-div {
   background-color: #8b47b8;
   padding: 10px;
   height: 40px;
   /* width: 300px; */
   border-radius: 10px;
   text-align: start;
-  
+
 }
-.play-icon{
+
+.play-icon {
   border-radius: 10px;
   background-color: black;
   /* color: white; */
   width: 13%;
 }
-.right{
+
+.right {
   padding-left: 3rem;
 }
-.div-row{
+
+.div-row {
   padding: 5rem;
 
 }
-.slide{
+.div-slider{
+  margin-left: 3rem;
+}
+
+.app-img {
+  border-radius: 10px;
+}
+
+.girl-img {
+  height: 800px;
+  width: 200px;
+}
+
+.icon-footer {
+  color: white;
+  display: flex;
+  justify-content: center;
+  list-style: none;
+}
+
+.footer {
+  /* text-align: start; */
+  color: white;
+  display: flex;
+  justify-content: center;
+}
+
+.slide {
   padding: 5rem;
 }
-.potential{
+
+.potential {
   height: 400px;
   width: 700px;
   margin-top: 0px;
 }
-.topic{
+
+.topic {
   width: 75%;
   justify-content: center;
   padding: 3rem;
 }
-.play-icon1{
+
+.play-icon1 {
   border-radius: 10px;
   background-color: black;
   /* color: white; */
   width: 30%;
   height: 60px;
 }
-.quesn-div{
+
+.quesn-div {
   border: 1px solid rgb(36, 116, 148);
   padding: 5px;
   border-radius: 5px;
 }
-.add{
+
+.add {
   /* height: 20px; */
   /* width: 2px; */
   /* padding: 4px; */
-  border: 1px solid ;
+  border: 1px solid;
   border-radius: 50%;
 }
+
 .image-div {
   background-image: url('https://www.cherrilearn.com/static/media/bg-talk.7fdabb0d.png');
   background-repeat: no-repeat;
