@@ -7,6 +7,258 @@
   pointer-events: none;
 }
 
+.main-div {
+  background-color: #a212ff;
+  background: linear-gradient(to bottom, #a212ff, white)
+    /* position: relative; */
+}
+
+.home {
+  padding-left: 50px;
+  padding-right: 50px;
+}
+
+.medium {
+  color: white;
+  position: relative;
+  right: 207px;
+  top: 11px;
+}
+
+.activity-div {
+  border-radius: 10px;
+  box-shadow: 2px 2px 2px 2px white;
+}
+
+.learning-div {
+  background-image: url('https://www.cherrilearn.com/static/media/doodle_bg31.e8bbc366.png');
+  background-repeat: no-repeat;
+}
+
+.arrow {
+  background-color: #a212ff;
+  /* padding: 3px; */
+  width: 30px;
+  border-radius: 20px;
+}
+
+.slider-box {
+  margin: 10px;
+  background-color: white;
+  border-radius: 10px;
+}
+
+.subject {
+  /* height: 60px; */
+  padding: 10px;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+}
+
+.subject b {
+  font-size: 20px;
+  color: white;
+}
+
+.img-div {
+  position: absolute;
+  bottom: 0px;
+  width: 100%;
+  left: -10px;
+}
+
+.parents-div {
+  position: relative;
+
+  display: flex;
+  justify-content: center;
+  left: 30px;
+  top: 47px;
+  z-index: 9;
+}
+
+.parents-img {
+  height: 80px;
+  width: 80px;
+  border-radius: 50%;
+}
+
+.video {
+  height: 30px;
+  width: 30px;
+  position: relative;
+  right: 53px;
+  top: 27px;
+}
+.btn-div{
+  background-color: #8b47b8;
+  padding: 10px;
+  height: 40px;
+  /* width: 300px; */
+  border-radius: 10px;
+  text-align: start;
+  
+}
+.play-icon{
+  border-radius: 10px;
+  background-color: black;
+  /* color: white; */
+  width: 13%;
+}
+.right{
+  padding-left: 3rem;
+}
+.div-row{
+  padding: 5rem;
+
+}
+.slide{
+  padding: 5rem;
+}
+.potential{
+  height: 400px;
+  width: 700px;
+  margin-top: 0px;
+}
+.topic{
+  width: 75%;
+  justify-content: center;
+  padding: 3rem;
+}
+.play-icon1{
+  border-radius: 10px;
+  background-color: black;
+  /* color: white; */
+  width: 30%;
+  height: 60px;
+}
+.quesn-div{
+  border: 1px solid rgb(36, 116, 148);
+  padding: 5px;
+  border-radius: 5px;
+}
+.add{
+  /* height: 20px; */
+  /* width: 2px; */
+  /* padding: 4px; */
+  border: 1px solid ;
+  border-radius: 50%;
+}
+.image-div {
+  background-image: url('https://www.cherrilearn.com/static/media/bg-talk.7fdabb0d.png');
+  background-repeat: no-repeat;
+  /* height: 200px; */
+  /* width: 100%; */
+}
+
+.sm-div {
+  background: linear-gradient(180deg, rgba(162, 18, 255, 0), rgba(162, 18, 255, .17) 19.79%, rgba(162, 18, 255, .21) 77.08%, #a212ff 96.49%);
+}
+
+.select {
+  width: 100px;
+  background-color: white;
+  border-radius: 10px;
+}
+
+.download {
+  height: 30px;
+  padding: 2px;
+  width: 116px;
+  border-radius: 10px;
+  background-color: #d3caca;
+}
+
+.icon-div {
+  height: 80px;
+  width: 80px;
+  border-top-left-radius: 71%;
+  border-top-right-radius: 116%;
+  border-bottom-left-radius: 59%;
+  border-bottom-right-radius: 50%;
+  background-color: white;
+  position: relative;
+  left: 73px;
+}
+
+.m-div {
+  padding: 10px;
+  border: 3px solid white;
+  border-style: dashed;
+  width: 45%;
+  border-radius: 10px;
+}
+
+.navbar-logo {
+  text-decoration: none;
+  color: #3f51b5;
+  justify-self: start;
+  margin-left: 10px;
+  cursor: pointer;
+}
+
+.navbar-container {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 80px;
+}
+
+.navbar-container ul {
+  padding: 0;
+  margin: 0;
+  -webkit-margin-before: 0;
+  margin-block-start: 0;
+  -webkit-margin-after: 0;
+  margin-block-end: 0;
+  -webkit-padding-start: 0;
+  padding-inline-start: 0;
+}
+
+.nav-items {
+
+  /* height: 80px; */
+  color: white;
+}
+
+.nav-items-email {
+  background-color: white;
+  padding: 3px;
+  border-radius: 5px;
+  height: 30px;
+}
+
+.nav-menu {
+  display: grid;
+  width: 100%;
+  grid-template-columns: repeat(7, auto);
+  grid-gap: 0 10px;
+  list-style: none;
+  text-align: center;
+  justify-content: end;
+  margin: 0 2rem 0 0;
+}
+
+.nav-items-search {
+  background-color: white;
+  height: 25px;
+  width: 23px;
+  border-radius: 5px;
+}
+
+.Navbar {
+  width: 100%;
+  background: transparent;
+  height: 80px;
+  display: flex;
+  align-items: center;
+  font-size: 1rem;
+  z-index: 999;
+  position: sticky;
+  top: 0;
+}
+
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
     animation: App-logo-spin infinite 20s linear;
@@ -32,6 +284,7 @@
   from {
     transform: rotate(0deg);
   }
+
   to {
     transform: rotate(360deg);
   }
